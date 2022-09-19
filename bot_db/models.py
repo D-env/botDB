@@ -17,3 +17,4 @@ class Event(models.Model):
     description = models.TextField(required=True)
     time = models.DateTimeField(required=True)
 
+
