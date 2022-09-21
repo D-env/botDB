@@ -16,3 +16,5 @@ class Event(models.Model):
     start_time = models.IntegerField()
     end_time = models.IntegerField()
     day = models.CharField()
+    def __str__(self):
+        return self.name
