@@ -4,4 +4,4 @@ build:
 release:
   image: web
 run:
-  web: gunicorn project.wsgi
+  web: gunicorn bot_db_project.wsgi --workers 4
